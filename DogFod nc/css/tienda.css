@@ -1,0 +1,230 @@
+:root{
+    --selector: #240FC7;
+    --secundario: #3EA9C1;
+    --animaciones: #EB7834;
+    --oscuro:   #212121;
+    --blanco:   #ffffff;
+    --precios:#1BD12C;
+  }
+  html{
+    font-size: 62.5%;
+  }
+  body{
+    font-size: 16%;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Playfair Display', serif;
+    background-color:var(--selector);
+   
+  } 
+  .imagen-fondo {
+    background-image: url("../img/dogfoodinc.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 35rem;
+}
+.cabecera{
+  color: var(--oscuro);
+  height: 20rem;
+  line-height: 20rem;
+  text-align:justify;
+  text-shadow: #111 0rem 0rem 1rem;
+}
+  .titulo{
+    text-align: center;
+    font-size: 3.8rem;
+    color: var(--blanco);
+  }
+  .titulo span{
+    font-size: 2rem;
+  }
+  .contenedor{
+    width: 120rem;
+    margin: 0 auto ;
+  }
+  .nav-backgraund{
+    background-color: var(--animaciones);
+  
+  }
+  .navegacion_principal{
+    text-align: initial;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-evenly;
+  }
+  .ilustracion{
+    width: 25rem; 
+    height: 25rem;
+    padding: 2rem 3rem;
+  }
+  .croquetas{
+    display: flex;
+    flex-direction: column;
+    align-content:space-around;
+    flex-wrap:nowrap;
+    padding: 1rem 1rem;
+    border-width: 50rem;
+
+  }
+   
+  .croquetas h3{
+    font-size: 3rem;
+    text-justify: distribute;
+    color: white;
+    padding: 25rem;
+  }
+  .croquetas p{
+    padding: 2rem 2rem;
+    text-align: justify;
+    color: var(--blanco);
+    padding: 5rem;
+  }
+  .costo{
+    font-size: 5rem;
+    font-weight: bold;
+    color:lawngreen;
+  }
+  @media (min-width:480px){
+    .navegacion_principal{
+      flex-direction: column;
+      text-align:justify;
+    }
+    .ilustracion{
+    padding: auto;
+    }
+    .menuopciones{
+      flex-direction: column ;
+    }
+    .croquetas{
+      flex-direction: column;
+    }
+  }
+  @media (min-width:768px){
+    .navegacion_principal{
+      flex-direction:column;
+      text-align:justify;
+    }
+    .ilustracion{
+     
+      padding: 1rem 2rem;
+    }
+    .menuopciones{
+      flex-direction: column;
+    }
+    .croquetas{
+      flex-direction: column;
+    }
+  }
+  @media (min-width:1140px){
+    .navegacion_principal{
+      flex-direction: row;
+      text-align:justify;
+    }
+    .ilustracion{
+      width: 30rem; 
+      height: 30rem;
+      padding: 2rem 3rem;
+    }
+    .menuopciones{
+      flex-direction: row ;
+    }
+    .croquetas{
+      flex-direction: row;
+    }
+  }
+  @media (min-width:1440px){
+    .navegacion_principal{
+      flex-direction: row;
+      text-align:justify;
+    }
+    .ilustracion{
+      width: 50rem; 
+      height: 50rem;
+      padding: 2rem 3rem;
+    }
+    .menuopciones{
+      flex-direction: row ;
+    }
+    .croquetas{
+      flex-direction: row;
+      align-content: center;
+    }
+  }
+
+
+  .navegacion_principal a {
+  color: var(--blanco);
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: normal;
+  
+  }
+  .navegacion_principal a:hover{
+    background-color: var(--selector);
+    color: var(--blanco);
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 1rem;
+  }
+ 
+  
+.contacto{
+  background-color: lightskyblue;
+  font-size: 2.5rem;
+
+}
+.posicion-pagina{
+  background-color: peachpuff;
+  font-size: 3rem;
+  text-align: justify;
+
+}
+.integrantes{
+  display:flex;
+  background: cadetblue;
+  font-size: 3rem;
+  text-align: justify;
+  align-content: space-between;
+  flex-direction: row;
+  padding: 1.5rem;
+  
+}
+.integrantes h2{
+  text-align: center;
+  padding: 2rem 2rem;
+}
+.integrantes_laboral{
+  width: 20rem; 
+    height: 20rem;
+    padding: 2rem 3rem;
+    align-content: space-between;
+}
+.piedepagina p{
+  color:var(--blanco)
+}
+.formulario-contacto{
+  display: flex;
+  flex-direction: column;
+  background-color: darkcyan;
+}
+.formulario-contacto label{
+  font-size: 2rem;
+  padding: 2.5rem;
+  align-content: space-around;
+}
+
+  h2{
+    font-size: 2.5rem;
+    color: var(--blanco);
+  }
+h3{
+  font-size: 2rem;
+  color:var(--oscuro);
+}
+  p{
+    color:var(--selector);
+    font-size: 2rem;
+    text-align: justify;
+  
+  }
+ 

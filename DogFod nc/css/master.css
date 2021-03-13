@@ -1,0 +1,195 @@
+:root{
+  --selector: #240FC7;
+  --secundario: #3EA9C1;
+  --animaciones: #EB7834;
+  --oscuro:   #212121;
+  --blanco:   #ffffff;
+  --precios:#1BD12C;
+}
+html{
+  font-size: 62.5%;
+}
+body{
+  font-size: 16%;
+  font-family: 'Inconsolata', monospace;
+  font-family: 'Playfair Display', serif;
+  background-image: url(../img/fondotienda.jpg);
+  background-repeat:repeat-y;
+  background-size: 200rem;
+  
+} 
+.imagen-fondo {
+  background-image: url("../img/dogfoodinc.jpg");
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: 40rem;
+
+}
+
+.cabecera{
+color: var(--oscuro);
+height: 20rem;
+line-height: 20rem;
+text-align:justify;
+text-shadow: #111 0rem 0rem 1rem;
+}
+
+.titulo{
+  text-align: center;
+  font-size: 3.8rem;
+  color: var(--blanco);
+}
+.titulo span{
+  font-size: 2rem;
+}
+.contenedor{
+  max-width: 120rem;
+  margin: 0 auto ;
+}
+.nav-backgraund{
+  background-color: var(--animaciones);
+}
+.ubicacion1{
+  display:flex ;
+  position:sticky;
+  position: relative;
+}
+.navegacion_principal{
+  text-align: initial;
+  font-size: 2rem;
+  display: flex;
+  justify-content:space-evenly;
+  flex-direction: column;
+  padding: 1.5rem 3rem;
+}
+.menuopciones{
+  display: flex;
+  justify-content:space-between;
+  background-color: goldenrod;
+  background-position: bottom;
+  border-image-width: 16rem;
+  text-align:justify;
+  font-size: 5rem;
+  justify-content:space-evenly;
+  flex-direction: column;
+  text-size-adjust:initial;
+  padding: 2rem 3rem;
+}
+
+.ilustracion{
+  width: 25rem; 
+  height: 25rem;
+  padding: 2rem 3rem;
+}
+@media (min-width:1140px){
+  .navegacion_principal{
+    flex-direction: row;
+    text-align:justify;
+  }
+  .ilustracion{
+    width: 50rem; 
+    height: 50rem;
+    padding: 2rem 3rem;
+  }
+  .menuopciones{
+    flex-direction: row ;
+  }
+}
+
+.navegacion_principal a {
+color: var(--blanco);
+text-decoration: none;
+font-size: 2rem;
+font-weight: normal;
+
+
+}
+.navegacion_principal a:hover{
+  background-color: var(--selector);
+  color: var(--blanco);
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1rem;
+}
+.separacion{
+  font-size: 4rem;
+  text-align: center;
+  color:aqua;
+  font-weight: bold;
+}
+
+.contacto{
+  background-color: lightskyblue;
+  font-size: 2.5rem;
+
+}
+.posicion-pagina{
+  background-color: peachpuff;
+  font-size: 3rem;
+  text-align: justify;
+
+}
+.integrantes{
+  display:flex;
+  background: cadetblue;
+  font-size: 3rem;
+  text-align: justify;
+  align-content: space-between;
+  flex-direction: row;
+  padding: 1.5rem;
+  
+}
+.integrantes h2{
+  text-align: center;
+  padding: 2rem 2rem;
+}
+.integrantes_laboral{
+  width: 20rem; 
+    height: 20rem;
+    padding: 2rem 3rem;
+    align-content: space-between;
+}
+.piedepagina p{
+  color:var(--blanco)
+}
+.formulario-contacto{
+  display: flex;
+  flex-direction: column;
+  background-color: darkcyan;
+}
+.formulario-contacto label{
+  font-size: 2rem;
+  padding: 2.5rem;
+  align-content: space-around;
+}
+.formulario-contacto legend{
+  font-size: 4rem;
+}
+.mision-vision{
+  background-color:darkgray;
+  font-size: 5rem;
+  padding: 10rem;
+  background-size: contain;
+}
+
+h3{
+  font-size: 2rem;
+  color: #ffffff;
+  font-weight: normal;
+  padding: 4rem;
+
+}
+h2{
+  font-size: 4rem;
+  color: var(--blanco);
+  font-weight: bold;
+
+}
+p{
+  color:var(--oscuro);
+  font-size: 2rem;
+  text-align: justify;
+  padding: 3rem;
+
+
+}
